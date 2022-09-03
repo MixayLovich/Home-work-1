@@ -1,0 +1,15 @@
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/bin/Debug/net6.0/Fifst_seminar
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/bin/Debug/net6.0/Fifst_seminar.deps.json
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/bin/Debug/net6.0/Fifst_seminar.runtimeconfig.json
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/bin/Debug/net6.0/Fifst_seminar.dll
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/bin/Debug/net6.0/Fifst_seminar.pdb
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.csproj.AssemblyReference.cache
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.AssemblyInfoInputs.cache
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.AssemblyInfo.cs
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.csproj.CoreCompileInputs.cache
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.dll
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/refint/Fifst_seminar.dll
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.pdb
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.genruntimeconfig.cache
+/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/ref/Fifst_seminar.dll
