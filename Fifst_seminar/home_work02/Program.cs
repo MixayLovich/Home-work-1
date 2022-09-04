@@ -13,3 +13,21 @@ else{
  System.Console.WriteLine("Числа рывны");
 }
 }
+
+
+int a = 5;
+int b = 3;
+int c = 7;
+
+int max =0;
+
+if(max < a){
+    max = a;
+}
+if (max < b){
+    max = b;
+}
+if(max < c){
+    max =c;
+}
+System.Console.WriteLine(max);

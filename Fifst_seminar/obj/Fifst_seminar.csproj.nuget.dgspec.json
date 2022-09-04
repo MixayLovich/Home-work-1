@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/Fifst_seminar.csproj": {}
+    "/Users/misha/Home-work-1/Fifst_seminar/Fifst_seminar.csproj": {}
   },
   "projects": {
-    "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/Fifst_seminar.csproj": {
+    "/Users/misha/Home-work-1/Fifst_seminar/Fifst_seminar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/Fifst_seminar.csproj",
+        "projectUniqueName": "/Users/misha/Home-work-1/Fifst_seminar/Fifst_seminar.csproj",
         "projectName": "Fifst_seminar",
-        "projectPath": "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/Fifst_seminar.csproj",
+        "projectPath": "/Users/misha/Home-work-1/Fifst_seminar/Fifst_seminar.csproj",
         "packagesPath": "/Users/misha/.nuget/packages/",
-        "outputPath": "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/",
+        "outputPath": "/Users/misha/Home-work-1/Fifst_seminar/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/misha/.nuget/NuGet/NuGet.Config"

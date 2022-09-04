@@ -13,3 +13,11 @@
 /Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.pdb
 /Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.genruntimeconfig.cache
 /Users/misha/Desktop/домашнее задание с#/Fifst_seminar/obj/Debug/net6.0/ref/Fifst_seminar.dll
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.csproj.AssemblyReference.cache
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.GeneratedMSBuildEditorConfig.editorconfig
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.AssemblyInfoInputs.cache
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.AssemblyInfo.cs
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.csproj.CoreCompileInputs.cache
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.dll
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/refint/Fifst_seminar.dll
+/Users/misha/Home-work-1/Fifst_seminar/obj/Debug/net6.0/Fifst_seminar.pdb
