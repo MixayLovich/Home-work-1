@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/home_work02/home_work02.csproj",
+      "projectUniqueName": "/Users/misha/Home-work-1/Fifst_seminar/home_work02/home_work02.csproj",
       "projectName": "home_work02",
-      "projectPath": "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/home_work02/home_work02.csproj",
+      "projectPath": "/Users/misha/Home-work-1/Fifst_seminar/home_work02/home_work02.csproj",
       "packagesPath": "/Users/misha/.nuget/packages/",
-      "outputPath": "/Users/misha/Desktop/домашнее задание с#/Fifst_seminar/home_work02/obj/",
+      "outputPath": "/Users/misha/Home-work-1/Fifst_seminar/home_work02/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/misha/.nuget/NuGet/NuGet.Config"
