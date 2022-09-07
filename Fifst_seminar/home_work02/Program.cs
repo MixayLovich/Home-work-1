@@ -15,19 +15,26 @@
 // }
 
 
-int a = 5;
-int b = 3;
-int c = 7;
+// int a = 5;
+// int b = 3;
+// int c = 7;
 
-int max =0;
+// int max =0;
 
-if(max < a){
-    max = a;
-}
-if (max < b){
-    max = b;
-}
-if(max < c){
-    max =c;
-}
-System.Console.WriteLine(max);
+// if(max < a){
+//     max = a;
+// }
+// if (max < b){
+//     max = b;
+// }
+// if(max < c){
+//     max =c;
+// }
+// System.Console.WriteLine(max);
+
+
+
+int n = 648;
+ 
+System.Console.WriteLine(n / 10 % 10);
+
