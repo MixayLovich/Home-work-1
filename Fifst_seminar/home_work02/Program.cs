@@ -119,33 +119,74 @@
  // 6, 1, 33 -> [6, 1, 33]
 
 
-  int[] GetArray()
-  {
-      int[] result = new int[8];
+//   int[] GetArray()
+//   {
+//       int[] result = new int[8];
 
-      for (int i = 0; i < result.Length; i++)
-      {
-          result[i] = new Random().Next(100);
-      }
+//       for (int i = 0; i < result.Length; i++)
+//       {
+//           result[i] = new Random().Next(100);
+//       }
 
-      return result;
-  }
+//       return result;
+//   }
 
-  void PrintArray(int[] arr)
-  {
-      int i = 0;
-      Console.Write("[");
-      while (i < arr.Length)
-      {
-          Console.Write(arr[i]);
-          i++;
-          if (i < arr.Length)
-          {
-              Console.Write(", ");
-          }
-      }
-     Console.Write("]");
-  }
+//   void PrintArray(int[] arr)
+//   {
+//       int i = 0;
+//       Console.Write("[");
+//       while (i < arr.Length)
+//       {
+//           Console.Write(arr[i]);
+//           i++;
+//           if (i < arr.Length)
+//           {
+//               Console.Write(", ");
+//           }
+//       }
+//      Console.Write("]");
+//   }
 
-  PrintArray(GetArray());
+//   PrintArray(GetArray());
+
+
+//  Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+ // [3, 7, 23, 12] -> 19
+ // [-4, -6, 89, 6] -> 0
+
+
+ int[] GetArray()
+ {
+     int[] array = new int[5];
+     for (int i = 0; i < array.Length; i++)
+     {
+         array[i] = new Random().Next(-100, 100);
+     }
+     return array;
+ }
+
+ void PrintArray(int[] array)
+ {
+ System.Console.Write("[");
+     for (int i = 0; i < array.Length - 1; i++)
+     {
+         System.Console.Write(array[i] + ", ");
+     }
+     System.Console.WriteLine(array[array.Length-1] + "]");
+ }
+
+ int SumOddIndexNumbers(int[] array){
+     int sum = 0;
+     for (int i = 0; i < array.Length; i++)
+     {
+         if(i % 2 != 0 ){
+             sum += array[i];
+         }
+     }
+     return sum;
+ }
+
+ int[] array = GetArray();
+ PrintArray(array);
+ System.Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях в массиве равна {SumOddIndexNumbers(array)}");
 
