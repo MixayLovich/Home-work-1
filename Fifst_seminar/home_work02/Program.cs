@@ -104,9 +104,14 @@
 
 
 
-int n = 10;
+// int n = 10;
 
-for (int i = 0; i <= n; i++)
-{
-    System.Console.WriteLine(Math.Pow(i, 3));
-}
+// for (int i = 0; i <= n; i++)
+// {
+//     System.Console.WriteLine(Math.Pow(i, 3));
+// }
+
+
+
+
+
