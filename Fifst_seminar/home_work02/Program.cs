@@ -206,7 +206,7 @@
 
  b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5) */
 
- /* const int X_COORD = 0;
+ const int X_COORD = 0;
  const int Y_COORD = 1;
  const int K_DATA = 0;
  const int B_DATA = 1;
