@@ -193,6 +193,13 @@
 
 
 
+// РЕШЕНИЕ ДОМАШНЕЙ ЗАДАЧИ
+ // Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями 
+ // y = k1 * x + b1, 
+ // y = k2 * x + b2; 
+ // значения b1, k1, b2 и k2 задаются пользователем.
+ // Пример - b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+
 
  /* Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
  заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
@@ -239,58 +246,3 @@
      int[] crossPoint = GetCrossPoint(lineData1, lineData2);
      Console.Write($"Точка пересечения прямых: ({crossPoint[X_COORD]}; {crossPoint[Y_COORD]})");
  }
-  */
-
- 
- //     return array;
- // }
-
- // void PrintArray(int[,] matrix)
- // {
- //     for (int i = 0; i < matrix.GetLength(0); i++)
- //     {
- //         for (int j = 0; j < matrix.GetLength(1); j++)
- //         {
- //             System.Console.Write($"{matrix[i, j]}\t");
- //         }
- //         System.Console.WriteLine();
- //     }
- //     System.Console.WriteLine();
- // }
-
- // int Prompt(string message)
- // {
- //     System.Console.Write(message);
- //     int result = Convert.ToInt32(Console.ReadLine());
- //     return result;
- // }
-
- // (int, int) FindDigitOnArray(int[,] array, int num)
- // {
- //     for (int i = 0; i < array.GetLength(0); i++)
- //     {
- //         for (int j = 0; j < array.GetLength(1); j++)
- //         {
- //             if (array[i, j] == num)
- //             {
- //                 return (i + 1, j + 1);
- //             }
- //         }
- //     }
- //     return (0, 0);
- // }
-
- // int[,] NewArray = GenerateArray(3);
- // PrintArray(NewArray);
- // int number = Prompt("Введите число, которое нужно найти в массиве: ");
- // (int row, int colum) = FindDigitOnArray(NewArray, number);
- // if (row == 0)
- // {
- //     System.Console.WriteLine("Числа нет в массиве");
- // }
- // else
- // {
- //     System.Console.WriteLine($"{row} {colum}");
-
-
-
