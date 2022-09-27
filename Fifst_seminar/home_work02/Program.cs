@@ -206,43 +206,43 @@
 
  b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5) */
 
- const int X_COORD = 0;
- const int Y_COORD = 1;
- const int K_DATA = 0;
- const int B_DATA = 1;
+//  const int X_COORD = 0;
+//  const int Y_COORD = 1;
+//  const int K_DATA = 0;
+//  const int B_DATA = 1;
 
- int[] GetCrossPoint(int[] dataLine1, int[] dataLine2)
- {
-     int[] point = new int[2];
-     point[X_COORD] = (dataLine1[B_DATA] - dataLine2[B_DATA]) / (dataLine2[K_DATA] - dataLine1[K_DATA]);
-     point[Y_COORD] = (dataLine2[K_DATA]  * dataLine1[B_DATA] - dataLine1[K_DATA] * dataLine2[B_DATA]) / (dataLine2[K_DATA] - dataLine1[K_DATA]);
-     return point;
- }
+//  int[] GetCrossPoint(int[] dataLine1, int[] dataLine2)
+//  {
+//      int[] point = new int[2];
+//      point[X_COORD] = (dataLine1[B_DATA] - dataLine2[B_DATA]) / (dataLine2[K_DATA] - dataLine1[K_DATA]);
+//      point[Y_COORD] = (dataLine2[K_DATA]  * dataLine1[B_DATA] - dataLine1[K_DATA] * dataLine2[B_DATA]) / (dataLine2[K_DATA] - dataLine1[K_DATA]);
+//      return point;
+//  }
 
- bool Validate(int k1, int k2)
- {
-     if (k1 == k2)
-     {
-         Console.Write("Заданные прямые не пересекаются");
-         return false;
-     }
-     return true;
- }
- int[] InputDataLine(int number)
- {
-     int[] dataLine = new int[2];
-     Console.WriteLine($"Введите b{number}: ");
-     dataLine[B_DATA] = Convert.ToInt32(Console.ReadLine());
-     Console.WriteLine($"Введите k{number}: ");
-     dataLine[K_DATA] = Convert.ToInt32(Console.ReadLine());
-     return dataLine;
- }
+//  bool Validate(int k1, int k2)
+//  {
+//      if (k1 == k2)
+//      {
+//          Console.Write("Заданные прямые не пересекаются");
+//          return false;
+//      }
+//      return true;
+//  }
+//  int[] InputDataLine(int number)
+//  {
+//      int[] dataLine = new int[2];
+//      Console.WriteLine($"Введите b{number}: ");
+//      dataLine[B_DATA] = Convert.ToInt32(Console.ReadLine());
+//      Console.WriteLine($"Введите k{number}: ");
+//      dataLine[K_DATA] = Convert.ToInt32(Console.ReadLine());
+//      return dataLine;
+//  }
 
- int[] lineData1 = InputDataLine(1);
- int[] lineData2 = InputDataLine(2);
+//  int[] lineData1 = InputDataLine(1);
+//  int[] lineData2 = InputDataLine(2);
 
- if (Validate(lineData1[K_DATA], lineData2[K_DATA]))
- {
-     int[] crossPoint = GetCrossPoint(lineData1, lineData2);
-     Console.Write($"Точка пересечения прямых: ({crossPoint[X_COORD]}; {crossPoint[Y_COORD]})");
- }
+//  if (Validate(lineData1[K_DATA], lineData2[K_DATA]))
+//  {
+//      int[] crossPoint = GetCrossPoint(lineData1, lineData2);
+//      Console.Write($"Точка пересечения прямых: ({crossPoint[X_COORD]}; {crossPoint[Y_COORD]})");
+//  }
