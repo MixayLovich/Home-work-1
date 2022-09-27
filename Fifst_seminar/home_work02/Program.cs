@@ -155,38 +155,142 @@
  // [-4, -6, 89, 6] -> 0
 
 
- int[] GetArray()
+//  int[] GetArray()
+//  {
+//      int[] array = new int[5];
+//      for (int i = 0; i < array.Length; i++)
+//      {
+//          array[i] = new Random().Next(-100, 100);
+//      }
+//      return array;
+//  }
+
+//  void PrintArray(int[] array)
+//  {
+//  System.Console.Write("[");
+//      for (int i = 0; i < array.Length - 1; i++)
+//      {
+//          System.Console.Write(array[i] + ", ");
+//      }
+//      System.Console.WriteLine(array[array.Length-1] + "]");
+//  }
+
+//  int SumOddIndexNumbers(int[] array){
+//      int sum = 0;
+//      for (int i = 0; i < array.Length; i++)
+//      {
+//          if(i % 2 != 0 ){
+//              sum += array[i];
+//          }
+//      }
+//      return sum;
+//  }
+
+//  int[] array = GetArray();
+//  PrintArray(array);
+//  System.Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях в массиве равна {SumOddIndexNumbers(array)}");
+
+
+
+
+
+ /* Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
+ заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
+
+ b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5) */
+
+ /* const int X_COORD = 0;
+ const int Y_COORD = 1;
+ const int K_DATA = 0;
+ const int B_DATA = 1;
+
+ int[] GetCrossPoint(int[] dataLine1, int[] dataLine2)
  {
-     int[] array = new int[5];
-     for (int i = 0; i < array.Length; i++)
-     {
-         array[i] = new Random().Next(-100, 100);
-     }
-     return array;
+     int[] point = new int[2];
+     point[X_COORD] = (dataLine1[B_DATA] - dataLine2[B_DATA]) / (dataLine2[K_DATA] - dataLine1[K_DATA]);
+     point[Y_COORD] = (dataLine2[K_DATA]  * dataLine1[B_DATA] - dataLine1[K_DATA] * dataLine2[B_DATA]) / (dataLine2[K_DATA] - dataLine1[K_DATA]);
+     return point;
  }
 
- void PrintArray(int[] array)
+ bool Validate(int k1, int k2)
  {
- System.Console.Write("[");
-     for (int i = 0; i < array.Length - 1; i++)
+     if (k1 == k2)
      {
-         System.Console.Write(array[i] + ", ");
+         Console.Write("Заданные прямые не пересекаются");
+         return false;
      }
-     System.Console.WriteLine(array[array.Length-1] + "]");
+     return true;
+ }
+ int[] InputDataLine(int number)
+ {
+     int[] dataLine = new int[2];
+     Console.WriteLine($"Введите b{number}: ");
+     dataLine[B_DATA] = Convert.ToInt32(Console.ReadLine());
+     Console.WriteLine($"Введите k{number}: ");
+     dataLine[K_DATA] = Convert.ToInt32(Console.ReadLine());
+     return dataLine;
  }
 
- int SumOddIndexNumbers(int[] array){
-     int sum = 0;
-     for (int i = 0; i < array.Length; i++)
-     {
-         if(i % 2 != 0 ){
-             sum += array[i];
-         }
-     }
-     return sum;
- }
+ int[] lineData1 = InputDataLine(1);
+ int[] lineData2 = InputDataLine(2);
 
- int[] array = GetArray();
- PrintArray(array);
- System.Console.WriteLine($"Сумма элементов, стоящих на нечетных позициях в массиве равна {SumOddIndexNumbers(array)}");
+ if (Validate(lineData1[K_DATA], lineData2[K_DATA]))
+ {
+     int[] crossPoint = GetCrossPoint(lineData1, lineData2);
+     Console.Write($"Точка пересечения прямых: ({crossPoint[X_COORD]}; {crossPoint[Y_COORD]})");
+ }
+  */
+
+ 
+ //     return array;
+ // }
+
+ // void PrintArray(int[,] matrix)
+ // {
+ //     for (int i = 0; i < matrix.GetLength(0); i++)
+ //     {
+ //         for (int j = 0; j < matrix.GetLength(1); j++)
+ //         {
+ //             System.Console.Write($"{matrix[i, j]}\t");
+ //         }
+ //         System.Console.WriteLine();
+ //     }
+ //     System.Console.WriteLine();
+ // }
+
+ // int Prompt(string message)
+ // {
+ //     System.Console.Write(message);
+ //     int result = Convert.ToInt32(Console.ReadLine());
+ //     return result;
+ // }
+
+ // (int, int) FindDigitOnArray(int[,] array, int num)
+ // {
+ //     for (int i = 0; i < array.GetLength(0); i++)
+ //     {
+ //         for (int j = 0; j < array.GetLength(1); j++)
+ //         {
+ //             if (array[i, j] == num)
+ //             {
+ //                 return (i + 1, j + 1);
+ //             }
+ //         }
+ //     }
+ //     return (0, 0);
+ // }
+
+ // int[,] NewArray = GenerateArray(3);
+ // PrintArray(NewArray);
+ // int number = Prompt("Введите число, которое нужно найти в массиве: ");
+ // (int row, int colum) = FindDigitOnArray(NewArray, number);
+ // if (row == 0)
+ // {
+ //     System.Console.WriteLine("Числа нет в массиве");
+ // }
+ // else
+ // {
+ //     System.Console.WriteLine($"{row} {colum}");
+
+
 
